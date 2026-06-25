@@ -1,0 +1,68 @@
+{
+  "passed": 12,
+  "failed": 0,
+  "total": 12,
+  "runDate": "2026-06-25T09:00:00.000Z",
+  "results": [
+    {
+      "name": "Vercel region pinned to lhr1",
+      "ok": true,
+      "detail": "regions = [\"lhr1\"]"
+    },
+    {
+      "name": "Sentry config (sentry.client.config.js) carries EU guard",
+      "ok": true,
+      "detail": "contains de.sentry.io check"
+    },
+    {
+      "name": "Sentry config (sentry.server.config.js) carries EU guard",
+      "ok": true,
+      "detail": "contains de.sentry.io check"
+    },
+    {
+      "name": "Sentry config (sentry.edge.config.js) carries EU guard",
+      "ok": true,
+      "detail": "contains de.sentry.io check"
+    },
+    {
+      "name": "Supabase project URL present in .env.local",
+      "ok": true,
+      "detail": "project ref = examplexyz (verify region in Supabase dashboard — must be eu-west-2)"
+    },
+    {
+      "name": "app/data-processors/page.js mentions sovereignty posture",
+      "ok": true,
+      "detail": "sovereignty section present"
+    },
+    {
+      "name": "app/privacy/page.js is current",
+      "ok": true,
+      "detail": "names \"Supabase Auth\" and contains no \"Clerk\" residue"
+    },
+    {
+      "name": "SECURITY.md present",
+      "ok": true,
+      "detail": "vulnerability disclosure policy in place"
+    },
+    {
+      "name": "Data portability endpoint exists",
+      "ok": true,
+      "detail": "app/api/account/export/route.js present"
+    },
+    {
+      "name": "Account deletion endpoint exists",
+      "ok": true,
+      "detail": "app/api/account/delete/route.js present"
+    },
+    {
+      "name": "CSP connect-src targets Sentry EU host only",
+      "ok": true,
+      "detail": "EU host in CSP; US default absent"
+    },
+    {
+      "name": "X-Frame-Options is DENY",
+      "ok": true,
+      "detail": "set to DENY"
+    }
+  ]
+}
