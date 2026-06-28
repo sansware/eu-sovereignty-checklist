@@ -1,11 +1,33 @@
 # EU/UK Sovereignty Checklist
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/sansware/eu-sovereignty-checklist)](https://github.com/sansware/eu-sovereignty-checklist/commits/main)
+[![Contributors](https://img.shields.io/github/contributors/sansware/eu-sovereignty-checklist)](https://github.com/sansware/eu-sovereignty-checklist/graphs/contributors)
+
 A practical, opinionated checklist plus a verification script for keeping a
 UK/EU SaaS on **EEA/UK-sovereign infrastructure**. This is the exact
 methodology and script I run quarterly on production stacks.
 
 Published under **CC BY 4.0** so you can lift it, edit it, and use it
 without asking. Attribution is welcome but not required.
+
+---
+
+## Table of contents
+
+- [Why this exists](#why-this-exists)
+- [The five principles](#the-five-principles)
+  - [Principle 1 — EEA/UK-sovereign by default](#principle-1--eeauk-sovereign-by-default)
+  - [Principle 2 — Region pinning is explicit](#principle-2--region-pinning-is-explicit)
+  - [Principle 3 — Sub-processor disclosure](#principle-3--sub-processor-disclosure)
+  - [Principle 4 — Quarterly verification](#principle-4--quarterly-verification)
+  - [Principle 5 — Documented exceptions](#principle-5--documented-exceptions)
+- [Using the script](#using-the-script)
+- [What the script checks](#what-the-script-checks)
+- [Tailoring the script](#tailoring-the-script)
+- [What this is not](#what-this-is-not)
+- [Maintainer](#maintainer)
+- [License](#license)
 
 ---
 
@@ -197,6 +219,18 @@ edited. Common adjustments:
 - **Not a perpetual escalation.** The principles set a default; new
   gaps are evaluated against the principles, not ratcheted further
   than the principles require.
+
+---
+
+## Maintainer
+
+Maintained by **Jordan Gilbert** ([@sansware](https://github.com/sansware)) —
+the engineer who codified this checklist while running it quarterly on
+production UK SaaS stacks. More at [ukwebmarketing.com/jordan](https://ukwebmarketing.com/jordan).
+
+Tag [@sansware](https://github.com/sansware) on PRs and issues for review.
+For security issues, see [`SECURITY.md`](SECURITY.md). For contribution
+guidelines, see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ---
 
