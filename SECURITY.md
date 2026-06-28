@@ -6,7 +6,7 @@ If you believe you have found a security issue in this repository — in the
 verification script, the checklist, or the example output — please report
 it privately rather than opening a public issue.
 
-**Contact:** [security@brothersylvester.com](mailto:security@brothersylvester.com)
+**Contact:** [security@sansware.tech](mailto:security@sansware.tech)
 
 When reporting, please include:
 
